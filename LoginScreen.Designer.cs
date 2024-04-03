@@ -1,6 +1,6 @@
 ﻿namespace TechnicalServiceAutomation
 {
-    partial class Form1
+    partial class LoginScreen
     {
         /// <summary>
         /// Required designer variable.

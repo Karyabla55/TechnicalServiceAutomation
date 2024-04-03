@@ -1,0 +1,9 @@
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\bin\Debug\TechnicalServiceAutomation.exe.config
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\bin\Debug\TechnicalServiceAutomation.exe
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\bin\Debug\TechnicalServiceAutomation.pdb
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.csproj.AssemblyReference.cache
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.Properties.Resources.resources
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.csproj.GenerateResource.cache
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.csproj.CoreCompileInputs.cache
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.exe
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.pdb
