@@ -9,7 +9,7 @@ namespace TechnicalServiceAutomation
 {
     public class LinkList<T>
     {
-        Node<T> root;
+        public Node<T> root;
 
         LinkList()
         {
@@ -128,6 +128,17 @@ namespace TechnicalServiceAutomation
                 
             }
 
+        }
+
+        public T lastData()
+        {
+            if(root == null)
+            {
+                throw new InvalidOperationException("List is empty");
+            }
+            Node<T> ither = root;
+            while (ither.next != null) { ither = ither.next; }
+            return ither.Data;
         }
     }
 

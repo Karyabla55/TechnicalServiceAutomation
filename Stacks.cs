@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,7 +9,7 @@ namespace TechnicalServiceAutomation
 {
     public class Stacks<T>
     {
-        private T[] data;
+        private LinkList<T> data;
         private int size;
         private int capacity;
 
@@ -17,13 +18,11 @@ namespace TechnicalServiceAutomation
         public Stacks()
         {
             capacity = 10;
-            data = new T[capacity];
             size = 0;
         }
         public Stacks(int capacity)
         {
             this.capacity = capacity;
-            data = new T[this.capacity];
             size = 0;
         }
 
@@ -33,7 +32,7 @@ namespace TechnicalServiceAutomation
             {
                 return;
             }
-            data[size] = item;
+            data.addToHead(item);
             size++;
         }
 
@@ -43,8 +42,10 @@ namespace TechnicalServiceAutomation
             {
                 throw new InvalidOperationException("Stack is empty");
             }
+            T Data = data.root.Data;
+            data.ExtractToHead();
             size--;
-            return data[size];
+            return Data ;
         }
 
         public T Peek()
@@ -53,7 +54,7 @@ namespace TechnicalServiceAutomation
             {
                 throw new InvalidOperationException("Stack is empty");
             }
-            return data[size - 1];
+            return data.lastData();
         }
 
         public bool IsEmpty()
