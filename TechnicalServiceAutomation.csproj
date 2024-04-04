@@ -47,13 +47,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Automation.cs" />
-    <Compile Include="LinkList.cs" />
-    <Compile Include="Node.cs" />
-    <Compile Include="LoginScreen.cs">
+    <Compile Include="frmAutomation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="LoginScreen.Designer.cs">
-      <DependentUpon>LoginScreen.cs</DependentUpon>
+    <Compile Include="frmAutomation.Designer.cs">
+      <DependentUpon>frmAutomation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LinkList.cs" />
+    <Compile Include="Node.cs" />
+    <Compile Include="frmLoginScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginScreen.Designer.cs">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
     </Compile>
     <Compile Include="Packages.cs" />
     <Compile Include="Program.cs" />
@@ -61,6 +67,9 @@
     <Compile Include="Queues.cs" />
     <Compile Include="RepairUnit.cs" />
     <Compile Include="Stacks.cs" />
+    <EmbeddedResource Include="frmAutomation.resx">
+      <DependentUpon>frmAutomation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

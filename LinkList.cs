@@ -140,6 +140,15 @@ namespace TechnicalServiceAutomation
             while (ither.next != null) { ither = ither.next; }
             return ither.Data;
         }
+        public IEnumerator<T> GetEnumerator()
+        {
+            Node<T> current = root;
+            while (current != null)
+            {
+                yield return current.Data;
+                current = current.next;
+            }
+        }
     }
-
+,
 }

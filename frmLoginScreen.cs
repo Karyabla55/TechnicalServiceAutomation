@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace TechnicalServiceAutomation
 {
-    public partial class LoginScreen : Form
+    public partial class frmLoginScreen : Form
     {
-        Stacks<Packages> DagitimUnitesi = new Stacks<Packages>(25);
-        public LoginScreen()
+        
+        public frmLoginScreen()
         {
             InitializeComponent();
         }
