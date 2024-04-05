@@ -13,12 +13,12 @@ namespace TechnicalServiceAutomation
         public Stacks<Packages> WorkCapacity;
         public LinkList<int> RepairType;
 
-        public RepairUnit(string ıd,int employee, int capacity, string repairType) 
+        public RepairUnit(string ıd,int employee, int capacity/*, string repairType*/) 
         {
             Id = ıd;
             EmployeeCapacity = employee;
             WorkCapacity = new Stacks<Packages>(capacity);
-            SaveTypes(repairType);
+            //SaveTypes(repairType);
         }
 
         private void SaveTypes(string repairType)

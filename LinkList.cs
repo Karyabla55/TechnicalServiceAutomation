@@ -11,7 +11,7 @@ namespace TechnicalServiceAutomation
     {
         public Node<T> root;
 
-        LinkList()
+        public LinkList()
         {
             this.root = null;
         }

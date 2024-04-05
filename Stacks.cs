@@ -69,5 +69,10 @@ namespace TechnicalServiceAutomation
             }
 
         }
+
+        public void getCapacity()
+        {
+            Console.WriteLine(this.capacity);
+        }
     }
 }
