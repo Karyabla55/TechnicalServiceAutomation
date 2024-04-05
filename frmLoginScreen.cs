@@ -17,5 +17,11 @@ namespace TechnicalServiceAutomation
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Automation automation = new Automation();
+            automation.SaveRepairUnits();
+        }
     }
 }

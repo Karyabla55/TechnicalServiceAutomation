@@ -7,3 +7,5 @@ C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(in
 C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.csproj.CoreCompileInputs.cache
 C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.exe
 C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.pdb
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.frmAutomation.resources
+C:\Users\Sadık Abdusselam\Desktop\Public Class gameMake{ }\Public void Coder(int case)\case2\c#Data\TechnicalServiceAutomation\obj\Debug\TechnicalServiceAutomation.frmLoginScreen.resources

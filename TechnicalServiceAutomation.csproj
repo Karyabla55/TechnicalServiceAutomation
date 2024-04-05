@@ -70,6 +70,9 @@
     <EmbeddedResource Include="frmAutomation.resx">
       <DependentUpon>frmAutomation.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginScreen.resx">
+      <DependentUpon>frmLoginScreen.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
