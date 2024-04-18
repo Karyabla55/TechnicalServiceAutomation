@@ -1,0 +1,271 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\automation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:automation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\stacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:stacks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\repairunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:repairunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\queues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:queues.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:linklist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|c:\\users\\sad\u0131k abdusselam\\desktop\\public class gamemake{ }\\public void coder(int case)\\case2\\c#data\\technicalserviceautomation\\packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:packages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\datas\\tamirbirimleri.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:datas\\tamirbirimleri.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\datas\\ispaketi.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:datas\\ispaketi.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:frmloginscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:frmautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{61C5E8C7-29F4-41A2-8C17-6F5EE5F73592}|TechnicalServiceAutomation.csproj|solutionrelative:frmautomation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinkList.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\LinkList.cs",
+              "RelativeDocumentMoniker": "LinkList.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\LinkList.cs",
+              "RelativeToolTip": "LinkList.cs",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAgwIQAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T21:17:07.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Node.cs",
+              "RelativeDocumentMoniker": "Node.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Node.cs",
+              "RelativeToolTip": "Node.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAvwA8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T10:39:54.142Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Queues.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Queues.cs",
+              "RelativeDocumentMoniker": "Queues.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Queues.cs",
+              "RelativeToolTip": "Queues.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAQwAgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:35:30.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmLoginScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmLoginScreen.cs",
+              "RelativeDocumentMoniker": "frmLoginScreen.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmLoginScreen.cs",
+              "RelativeToolTip": "frmLoginScreen.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBoAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T21:13:43.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RepairUnit.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\RepairUnit.cs",
+              "RelativeDocumentMoniker": "RepairUnit.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\RepairUnit.cs",
+              "RelativeToolTip": "RepairUnit.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwD0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T20:25:09.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Packages.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Packages.cs",
+              "RelativeDocumentMoniker": "Packages.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Packages.cs",
+              "RelativeToolTip": "Packages.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAgwH4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T20:54:10.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Automation.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Automation.cs",
+              "RelativeDocumentMoniker": "Automation.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Automation.cs",
+              "RelativeToolTip": "Automation.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAswCwAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:50:07.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Stacks.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Stacks.cs",
+              "RelativeDocumentMoniker": "Stacks.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Stacks.cs",
+              "RelativeToolTip": "Stacks.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T14:28:05.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLoginScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmLoginScreen.cs",
+              "RelativeDocumentMoniker": "frmLoginScreen.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmLoginScreen.cs [Design]",
+              "RelativeToolTip": "frmLoginScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T09:06:41.817Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TamirBirimleri.txt",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Datas\\TamirBirimleri.txt",
+              "RelativeDocumentMoniker": "Datas\\TamirBirimleri.txt",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Datas\\TamirBirimleri.txt",
+              "RelativeToolTip": "Datas\\TamirBirimleri.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-16T08:21:32.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IsPaketi.txt",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Datas\\IsPaketi.txt",
+              "RelativeDocumentMoniker": "Datas\\IsPaketi.txt",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Datas\\IsPaketi.txt",
+              "RelativeToolTip": "Datas\\IsPaketi.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-07T23:11:00.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-01T21:13:41.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\App.config",
+              "RelativeDocumentMoniker": "App.config",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\App.config",
+              "RelativeToolTip": "App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-04-05T07:15:36.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmAutomation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmAutomation.cs",
+              "RelativeDocumentMoniker": "frmAutomation.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmAutomation.cs [Design]",
+              "RelativeToolTip": "frmAutomation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-04-04T08:07:59.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmAutomation.cs",
+              "DocumentMoniker": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmAutomation.cs",
+              "RelativeDocumentMoniker": "frmAutomation.cs",
+              "ToolTip": "C:\\Users\\Sad\u0131k Abdusselam\\Desktop\\Public Class gameMake{ }\\Public void Coder(int case)\\case2\\c#Data\\TechnicalServiceAutomation\\frmAutomation.cs",
+              "RelativeToolTip": "frmAutomation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003525|",
+              "WhenOpened": "2024-04-04T08:08:24.48Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

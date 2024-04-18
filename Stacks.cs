@@ -22,6 +22,7 @@ namespace TechnicalServiceAutomation
         }
         public Stacks(int capacity)
         {
+            data = new LinkList<T>();
             this.capacity = capacity;
             size = 0;
         }
@@ -54,7 +55,15 @@ namespace TechnicalServiceAutomation
             {
                 throw new InvalidOperationException("Stack is empty");
             }
-            return data.lastData();
+            return data.root.Data;
+        }
+        public Node<T> PeekNode()
+        {
+            if (size == 0)
+            {
+                throw new InvalidOperationException("Stack is empty");
+            }
+            return data.root;
         }
 
         public bool IsEmpty()
@@ -69,10 +78,25 @@ namespace TechnicalServiceAutomation
             }
 
         }
-
-        public void getCapacity()
+        public bool IsFull()
         {
-            Console.WriteLine(this.capacity);
+            if(size == capacity)
+            {
+                return true;
+            }
+            else 
+            { 
+                return false; 
+            }
+        }
+
+        public int getCapacity()
+        {
+            return capacity;
+        }
+        public int getSize()
+        {
+            return size;
         }
     }
 }

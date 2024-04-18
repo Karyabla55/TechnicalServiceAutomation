@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace TechnicalServiceAutomation
 {
+    //Kullanılmıyor
     public class Queues<T>
     {
 

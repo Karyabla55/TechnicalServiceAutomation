@@ -14,16 +14,37 @@ namespace TechnicalServiceAutomation
         public Stacks<Packages> WorkCapacity;
         public LinkList<int> RepairType;
 
-        public RepairUnit(string ıd,int employee, int capacity, string repairType) 
+        public RepairUnit(string ıd,int employee, int capacity) 
         {
             Id = ıd;
             EmployeeCapacity = employee;
             WorkCapacity = new Stacks<Packages>(capacity);
-            SaveTypes(repairType);
+            RepairType = new LinkList<int>();
+            SaveTypes(ıd);
         }
 
-        private void SaveTypes(string repairType)
+        private void SaveTypes(string ıd)
         {
+            string repairType;
+            switch (ıd)
+            {
+                case "T01":
+                    repairType = "1*2*3";
+                    break;
+                case "T02":
+                    repairType = "4*5";
+                    break;
+                case "T03":
+                    repairType = "6*7*8";
+                    break;
+                case "T04":
+                    repairType = "8*9*10";
+                    break;
+                default:
+                    repairType = "";
+                    break;
+            }
+
             string[] chars = repairType.Split('*');
             foreach(string rT in chars) {
                 RepairType.addToLast(int.Parse(rT));
@@ -56,9 +77,25 @@ namespace TechnicalServiceAutomation
                         RepairUnits.addToLast(unit);
 
                     }
+                    
+                    Node<RepairUnit> ither = RepairUnits.root;
+                    while (ither != null)
+                    {
+                        Console.Write(ither.Data.Id + ",");
+                        Console.Write(ither.Data.EmployeeCapacity + ",");
+                        Console.Write(ither.Data.WorkCapacity.getCapacity() + ",");
+                        foreach(int repairTypes in ither.Data.RepairType)
+                        {
+                            Console.Write(repairTypes + "*");
+                        }
+                        Console.WriteLine();
+                        ither = ither.next;
+                    }
+                    
 
                 }
-                Console.WriteLine("Tamir birimleri Eklendi...");
+                    Console.WriteLine("Tamir birimleri Eklendi...");
+                
             }
             catch (Exception e)
             {
