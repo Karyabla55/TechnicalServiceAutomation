@@ -29,8 +29,8 @@ namespace TechnicalServiceAutomation
 
             try
             {
-                
-                
+
+
                 using (StreamReader sr = new StreamReader(dosyaYolu))
                 {
                     string satir;
@@ -42,7 +42,7 @@ namespace TechnicalServiceAutomation
 
                         string[] repairT = packageData[1].Split('*');
                         int[] repT = new int[repairT.Length];
-                        
+
                         for (int j = 0; j < repairT.Length; j++)
                         {
                             repT[j] = int.Parse(repairT[j]);
@@ -69,7 +69,7 @@ namespace TechnicalServiceAutomation
             }
         }
 
-        private static bool IsThereIn(string s,char a) 
+        private static bool IsThereIn(string s, char a)
         {
             foreach (char c in s)
             {
@@ -84,7 +84,7 @@ namespace TechnicalServiceAutomation
 
             foreach (var fault in package.FaultType)
             {
-                if (fault == 1 || fault == 2 ||  fault == 3 && !IsThereIn(fixT, '1'))
+                if (fault == 1 || fault == 2 || fault == 3 && !IsThereIn(fixT, '1'))
                 {
                     fixT += "1*";
                 }
@@ -102,15 +102,15 @@ namespace TechnicalServiceAutomation
                 }
             }
             string[] types = fixT.Split('*');
-            package.FixType = new int[types.Length-1];
+            package.FixType = new int[types.Length - 1];
             int i = 0;
-            foreach(var s in types)
+            foreach (var s in types)
             {
                 if (i == types.Length - 1) break;
                 package.FixType[i] = int.Parse(s);
                 i++;
             }
-            
+
 
         }
 
@@ -118,13 +118,13 @@ namespace TechnicalServiceAutomation
         {
             int[] faultMinutes = { 10, 15, 20, 12, 14, 30, 26, 24, 22, 12 };
             TimeSpan[] FaultDurtations = new TimeSpan[faultMinutes.Length];
-            for(int i = 0; i < faultMinutes.Length; i++)
+            for (int i = 0; i < faultMinutes.Length; i++)
             {
                 FaultDurtations[i] = TimeSpan.FromMinutes(faultMinutes[i]);
             }
-            foreach(var fault in packages.FaultType)
+            foreach (var fault in packages.FaultType)
             {
-                packages.FixTime = packages.FixTime.Add(FaultDurtations[fault-1]);
+                packages.FixTime = packages.FixTime.Add(FaultDurtations[fault - 1]);
             }
         }
 
@@ -132,7 +132,7 @@ namespace TechnicalServiceAutomation
         {
             if (str == "-")
             {
-                return TimeSpan.Zero; 
+                return TimeSpan.Zero;
             }
             string[] time = str.Split('.');
             TimeSpan organizedTime = TimeSpan.Parse(time[0] + ":" + time[1]);
@@ -207,7 +207,52 @@ namespace TechnicalServiceAutomation
                 {
                     Console.Write(",");
                 }
-                
+
+                Console.Write(ither.Data.FixTime.Hours + ":" + ither.Data.FixTime.Minutes + ",");
+                Console.Write(ither.Data.EntranceTime.Hours + ":" + ither.Data.EntranceTime.Minutes + ",");
+                Console.Write(ither.Data.ExitTime.Hours + ":" + ither.Data.ExitTime.Minutes + ",");
+                Console.WriteLine();
+                ither = ither.next;
+            }
+        }
+        public static void PrintPackages(Node<Packages> package)
+        {
+            Node<Packages> ither = package;
+            while (ither != null)
+            {
+                Console.Write(ither.Data.PackageId + ",");
+                for (int i = 0; i < ither.Data.FaultType.Length; i++)
+                {
+                    if (i == ither.Data.FaultType.Length - 1)
+                    {
+                        Console.Write(ither.Data.FaultType[i] + ",");
+                    }
+                    else
+                    {
+                        Console.Write(ither.Data.FaultType[i] + "*");
+                    }
+
+                }
+                if (ither.Data.FixTime != null)
+                {
+                    for (int i = 0; i < ither.Data.FixType.Length; i++)
+                    {
+                        if (i == ither.Data.FixType.Length - 1)
+                        {
+                            Console.Write(ither.Data.FixType[i] + ",");
+                        }
+                        else
+                        {
+                            Console.Write(ither.Data.FixType[i] + "*");
+                        }
+
+                    }
+                }
+                else
+                {
+                    Console.Write(",");
+                }
+
                 Console.Write(ither.Data.FixTime.Hours + ":" + ither.Data.FixTime.Minutes + ",");
                 Console.Write(ither.Data.EntranceTime.Hours + ":" + ither.Data.EntranceTime.Minutes + ",");
                 Console.Write(ither.Data.ExitTime.Hours + ":" + ither.Data.ExitTime.Minutes + ",");

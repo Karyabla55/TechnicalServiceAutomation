@@ -25,6 +25,7 @@ namespace TechnicalServiceAutomation
             Packages.OrganizePackages(automation.allPackages);
             automation.SendDistribution();
             Packages.PrintPackages(automation.allPackages);
+            automation.SendRepairUnits();
         }
     }
 }

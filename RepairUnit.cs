@@ -69,10 +69,10 @@ namespace TechnicalServiceAutomation
                         string[] repairUnitData = satir.Split(',');
 
                         string id = repairUnitData[0];
-                        int capW = int.Parse(repairUnitData[1]);
-                        int capE = int.Parse(repairUnitData[2]);
+                        int capE = int.Parse(repairUnitData[1]);
+                        int capW = int.Parse(repairUnitData[2]);
                         // 4 sütunlük veri için patlar vaktin olursa bak
-
+                        
                         RepairUnit unit = new RepairUnit(id, capE, capW);
                         RepairUnits.addToLast(unit);
 
@@ -100,6 +100,21 @@ namespace TechnicalServiceAutomation
             catch (Exception e)
             {
                 Console.WriteLine("Hata: " + e.Message);
+            }
+        }
+
+        public static void printRepairUnits(LinkList<RepairUnit> RepairUnits)
+        {
+            foreach (var unit in RepairUnits)
+            {
+                Console.WriteLine(unit.Id);
+                Console.WriteLine(unit.EmployeeCapacity);
+                Node<Packages> node = unit.WorkCapacity.PeekNode();
+                while (node != null) 
+                {
+                    Packages.PrintPackages(node);
+                    node = node.next;
+                }
             }
         }
     }
