@@ -61,7 +61,7 @@ namespace TechnicalServiceAutomation
         {
             if (size == 0)
             {
-                throw new InvalidOperationException("Stack is empty");
+                return null;
             }
             return data.root;
         }

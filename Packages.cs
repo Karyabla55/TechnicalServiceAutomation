@@ -11,6 +11,7 @@ namespace TechnicalServiceAutomation
         public TimeSpan FixTime;
         public TimeSpan EntranceTime;
         public TimeSpan ExitTime;
+        public bool IsAddedToUnit;
 
         public Packages(string packageId, int[] faultType, TimeSpan fixTime, TimeSpan entranceTime, TimeSpan exitTime)
         {
@@ -214,6 +215,46 @@ namespace TechnicalServiceAutomation
                 Console.WriteLine();
                 ither = ither.next;
             }
+        }
+        public static void PrintPackage(Packages package)
+        {
+            Console.Write(package.PackageId + ",");
+            for (int i = 0; i < package.FaultType.Length; i++)
+            {
+                if (i == package.FaultType.Length - 1)
+                {
+                    Console.Write(package.FaultType[i] + ",");
+                }
+                else
+                {
+                    Console.Write(package.FaultType[i] + "*");
+                }
+
+            }
+            if (package.FixTime != null)
+            {
+                for (int i = 0; i < package.FixType.Length; i++)
+                {
+                    if (i == package.FixType.Length - 1)
+                    {
+                        Console.Write(package.FixType[i] + ",");
+                    }
+                    else
+                    {
+                        Console.Write(package.FixType[i] + "*");
+                    }
+
+                }
+            }
+            else
+            {
+                Console.Write(",");
+            }
+
+            Console.Write(package.FixTime.Hours + ":" + package.FixTime.Minutes + ",");
+            Console.Write(package.EntranceTime.Hours + ":" + package.EntranceTime.Minutes + ",");
+            Console.Write(package.ExitTime.Hours + ":" + package.ExitTime.Minutes + ",");
+            Console.WriteLine();
         }
         public static void PrintPackages(Node<Packages> package)
         {

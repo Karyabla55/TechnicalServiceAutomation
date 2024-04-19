@@ -67,6 +67,7 @@
     <Compile Include="Queues.cs" />
     <Compile Include="RepairUnit.cs" />
     <Compile Include="Stacks.cs" />
+    <Compile Include="VirtualClock.cs" />
     <EmbeddedResource Include="frmAutomation.resx">
       <DependentUpon>frmAutomation.cs</DependentUpon>
     </EmbeddedResource>

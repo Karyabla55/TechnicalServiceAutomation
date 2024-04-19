@@ -22,9 +22,8 @@ namespace TechnicalServiceAutomation
         {
             Automation automation = new Automation();
             RepairUnit.SaveRepairUnits(automation.RepairUnits);
-            Packages.OrganizePackages(automation.allPackages);
-            automation.SendDistribution();
-            Packages.PrintPackages(automation.allPackages);
+            Packages.OrganizePackages(automation.AllPackages);
+            automation.RunSystem();
             automation.SendRepairUnits();
         }
     }

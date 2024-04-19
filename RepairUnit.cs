@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace TechnicalServiceAutomation
@@ -107,14 +108,20 @@ namespace TechnicalServiceAutomation
         {
             foreach (var unit in RepairUnits)
             {
-                Console.WriteLine(unit.Id);
-                Console.WriteLine(unit.EmployeeCapacity);
                 Node<Packages> node = unit.WorkCapacity.PeekNode();
-                while (node != null) 
+                if (node == null)
                 {
-                    Packages.PrintPackages(node);
-                    node = node.next;
+                    Console.WriteLine(unit.Id +" no'lu tamir biriminde İş bulunmamakta.");
+                    Thread.Sleep(1000);
                 }
+                else
+                {
+                    Console.WriteLine(unit.Id + "No'lu Tamir birimindeki işler:");
+                    Thread.Sleep(1000);
+                    Packages.PrintPackages(node);
+                }
+
+                    
             }
         }
     }
