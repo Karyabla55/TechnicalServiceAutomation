@@ -14,8 +14,8 @@ namespace TechnicalServiceAutomation
     public class Automation
     {
         public LinkList<Packages> AllPackages;
-        public Stacks<Packages> DistributionUnit;
         public LinkList<RepairUnit> RepairUnits;
+        public Stacks<Packages> DistributionUnit;
         public LinkList<Packages> FinishedPackages;
         public VirtualClock VirtualClock;
         
